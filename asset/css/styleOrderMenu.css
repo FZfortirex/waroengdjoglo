@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header{
+    padding-left: 10%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    transition: 0.3s ease;
+    z-index: 1;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#buttonBack{
+    margin-left: 5%;
+}
+button{
+    font-size: 16px;
+    letter-spacing: 2px;
+    background-color: #F9C001;
+    padding: 20px;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    color: #F9C001;
+    transition: 0.3s ease;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.textLine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 50px;
+    height: 5px;
+    background-color: white;
+}
+main h2{
+    letter-spacing: 2px;
+    font-size: 86px;
+}
+
+main h1{
+    letter-spacing: 2px;
+    font-size: 100px;
+    margin-bottom: 5%;
+}
+
+.borderLine{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin: auto;
+    border-style: solid;
+    border-color: white;
+}
+
+.makanan{
+    width: 80%;
+    margin: auto;
+}
+
+.listMakanan{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.listItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.listItem p{
+    padding-top: 10px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+.makanan ul li{
+    padding-top: 10px;
+    font-size: 1vw;
+    letter-spacing: 2px;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+.makanan h1{
+    padding-top: 20px;
+    font-size: 34px;
+    text-align: center;
+    color: #F9C001;
+}
+
+.pisah{
+    margin-top: 5%;
+}
+
+.listMinuman{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.minuman ul li{
+    padding-top: 10px;
+    font-size: 1vw;
+    letter-spacing: 2px;
+    margin-left: 30px;
+}
+.minuman h1{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 34px;
+    text-align: center;
+    color: #F9C001;
+}
+
+.listCemilan{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.cemilan ul li{
+    padding-top: 10px;
+    font-size: 1vw;
+    letter-spacing: 2px;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+.cemilan h1{
+    padding-top: 20px;
+    font-size: 34px;
+    text-align: center;
+    color: #F9C001;
+}
+
+.borderLineCemilan{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    margin: auto;
+    border-style: solid;
+    border-color: white;
+}
+
+.pisahCemilan{
+    margin-left: 5%;
+}
+.samping{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.sampingPembayaran{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+.listCalculator{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.calculator h1{
+    padding-top: 20px;
+    font-size: 34px;
+    text-align: center;
+    color: #F9C001;
+}
+
+.calculator{
+    width: 80%;
+    margin: auto;
+}
+
+.pilih{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+select{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#buttonHitung{
+    font-size: 16px;
+    letter-spacing: 2px;
+    background-color: #F9C001;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#buttonHitung:hover{
+    background-color: white;
+    color: #F9C001;
+    transition: 0.3s ease;
+}
+
+.listCalculator p {
+    font-size: 18px;
+}
+
+.judulNote h1{
+    padding-bottom: 50px;
+    font-size: 34px;
+    text-align: center;
+    color: #F9C001;
+}
+
+select {
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    border: 2px solid #F9C001;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+option {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 12px;
+    outline: none;
+}
+
+input {
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    border: 2px solid #F9C001;
+    padding: 10px;
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
